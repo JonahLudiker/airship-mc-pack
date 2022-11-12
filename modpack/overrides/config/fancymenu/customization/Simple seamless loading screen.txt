@@ -1,0 +1,113 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 81
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 9026fa48-84b2-44c5-ac36-81a67062a3a21668283588617
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = ca845d67-664a-46f0-834a-ccf2ac3b82b51668283588621
+  y = 223
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 201
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = eb5eba99-a758-434c-9b65-6c7a741d24201668283588621
+  y = 245
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 318
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = aa6728ad-4f87-463c-aeb6-2d4d095093a51668283588621
+  y = 166
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 78
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = d5224315-e103-4834-a417-9a86c811304f1668283588621
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 49b61acc-7490-48df-bf91-50fd61c57cb71668283588621
+  y = 0
+  height = 30
+}
+

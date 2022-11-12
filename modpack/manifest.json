@@ -1,0 +1,584 @@
+{
+  "minecraft": {
+    "version": "1.19.2",
+    "modLoaders": [
+      {
+        "id": "forge-43.1.30",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "1.0.0",
+  "author": "murkyyy",
+  "name": "airship",
+  "files": [
+    {
+      "projectID": 60089,
+      "fileID": 3871353,
+      "required": true,
+      "__meta": {
+        "name": "Mouse Tweaks"
+      }
+    },
+    {
+      "projectID": 231275,
+      "fileID": 3974456,
+      "required": true,
+      "__meta": {
+        "name": "Ding"
+      }
+    },
+    {
+      "projectID": 238086,
+      "fileID": 4082492,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS",
+        "dependencies": [
+          416294,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 247895,
+      "fileID": 3945705,
+      "required": true,
+      "__meta": {
+        "name": "What's That Slot?"
+      }
+    },
+    {
+      "projectID": 248787,
+      "fileID": 3872808,
+      "required": true,
+      "__meta": {
+        "name": "AppleSkin"
+      }
+    },
+    {
+      "projectID": 250398,
+      "fileID": 4050343,
+      "required": true,
+      "__meta": {
+        "name": "Controlling"
+      }
+    },
+    {
+      "projectID": 256087,
+      "fileID": 3931943,
+      "required": true,
+      "__meta": {
+        "name": "Notes"
+      }
+    },
+    {
+      "projectID": 257356,
+      "fileID": 4081183,
+      "required": true,
+      "__meta": {
+        "name": "In Control!"
+      }
+    },
+    {
+      "projectID": 280294,
+      "fileID": 3931329,
+      "required": true,
+      "__meta": {
+        "name": "FPS Reducer"
+      }
+    },
+    {
+      "projectID": 280510,
+      "fileID": 3963622,
+      "required": true,
+      "__meta": {
+        "name": "AttributeFix"
+      }
+    },
+    {
+      "projectID": 303657,
+      "fileID": 4036329,
+      "required": true,
+      "__meta": {
+        "name": "Kiwi 🥝 (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 306770,
+      "fileID": 4031402,
+      "required": true,
+      "__meta": {
+        "name": "Patchouli"
+      }
+    },
+    {
+      "projectID": 308663,
+      "fileID": 3974569,
+      "required": true,
+      "__meta": {
+        "name": "Snow! Real Magic! ⛄ (Forge)",
+        "dependencies": [
+          303657
+        ]
+      }
+    },
+    {
+      "projectID": 310111,
+      "fileID": 4082319,
+      "required": true,
+      "__meta": {
+        "name": "Roughly Enough Items Fabric/Forge (REI)",
+        "dependencies": [
+          419699,
+          521393,
+          348521
+        ]
+      }
+    },
+    {
+      "projectID": 311927,
+      "fileID": 3910437,
+      "required": true,
+      "__meta": {
+        "name": "Nimble (Forge)"
+      }
+    },
+    {
+      "projectID": 314002,
+      "fileID": 4031909,
+      "required": true,
+      "__meta": {
+        "name": "Overloaded Armor Bar"
+      }
+    },
+    {
+      "projectID": 317269,
+      "fileID": 3936915,
+      "required": true,
+      "__meta": {
+        "name": "Controllable"
+      }
+    },
+    {
+      "projectID": 328085,
+      "fileID": 4011414,
+      "required": true,
+      "__meta": {
+        "name": "Create"
+      }
+    },
+    {
+      "projectID": 348521,
+      "fileID": 3972423,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 361276,
+      "fileID": 4072410,
+      "required": true,
+      "__meta": {
+        "name": "Lootr (Forge)"
+      }
+    },
+    {
+      "projectID": 367706,
+      "fileID": 4077307,
+      "required": true,
+      "__meta": {
+        "name": "FancyMenu [Forge]",
+        "dependencies": [
+          410295
+        ]
+      }
+    },
+    {
+      "projectID": 386134,
+      "fileID": 3993549,
+      "required": true,
+      "__meta": {
+        "name": "FTB Ultimine (Forge)",
+        "dependencies": [
+          419699,
+          404465
+        ]
+      }
+    },
+    {
+      "projectID": 396094,
+      "fileID": 3879341,
+      "required": true,
+      "__meta": {
+        "name": "Armor Points ++ / Health Stacking"
+      }
+    },
+    {
+      "projectID": 404465,
+      "fileID": 4076618,
+      "required": true,
+      "__meta": {
+        "name": "FTB Library (Forge)",
+        "explicit": false,
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 404468,
+      "fileID": 3963573,
+      "required": true,
+      "__meta": {
+        "name": "FTB Teams (Forge)",
+        "dependencies": [
+          419699,
+          404465
+        ]
+      }
+    },
+    {
+      "projectID": 410295,
+      "fileID": 4031718,
+      "required": true,
+      "__meta": {
+        "name": "Konkrete [Forge]",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 411816,
+      "fileID": 4082893,
+      "required": true,
+      "__meta": {
+        "name": "Simple Discord RPC [Forge/Fabric/Quilt]"
+      }
+    },
+    {
+      "projectID": 416294,
+      "fileID": 4082486,
+      "required": true,
+      "__meta": {
+        "name": "Rhino",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 419699,
+      "fileID": 4040977,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 426082,
+      "fileID": 4019292,
+      "required": true,
+      "__meta": {
+        "name": "Panoramica [Forge]",
+        "dependencies": [
+          410295
+        ]
+      }
+    },
+    {
+      "projectID": 429235,
+      "fileID": 4073783,
+      "required": true,
+      "__meta": {
+        "name": "FerriteCore (Forge)"
+      }
+    },
+    {
+      "projectID": 448233,
+      "fileID": 3914299,
+      "required": true,
+      "__meta": {
+        "name": "Entity Culling Fabric/Forge"
+      }
+    },
+    {
+      "projectID": 457570,
+      "fileID": 4011355,
+      "required": true,
+      "__meta": {
+        "name": "Configured"
+      }
+    },
+    {
+      "projectID": 459701,
+      "fileID": 3873264,
+      "required": true,
+      "__meta": {
+        "name": "Catalogue"
+      }
+    },
+    {
+      "projectID": 460819,
+      "fileID": 3831644,
+      "required": true,
+      "__meta": {
+        "name": "Lazy DataFixerUpper(LazyDFU) [FORGE]"
+      }
+    },
+    {
+      "projectID": 485681,
+      "fileID": 3970964,
+      "required": true,
+      "__meta": {
+        "name": "Chunky (Forge)"
+      }
+    },
+    {
+      "projectID": 499826,
+      "fileID": 4029209,
+      "required": true,
+      "__meta": {
+        "name": "Advancement Plaques",
+        "dependencies": [
+          520110
+        ]
+      }
+    },
+    {
+      "projectID": 502561,
+      "fileID": 3907090,
+      "required": true,
+      "__meta": {
+        "name": "Equipment Compare",
+        "dependencies": [
+          520110
+        ]
+      }
+    },
+    {
+      "projectID": 508933,
+      "fileID": 3923597,
+      "required": true,
+      "__meta": {
+        "name": "Distant Horizons: A Level of Detail mod"
+      }
+    },
+    {
+      "projectID": 511770,
+      "fileID": 4050861,
+      "required": true,
+      "__meta": {
+        "name": "Drippy Loading Screen [Forge]",
+        "dependencies": [
+          410295
+        ]
+      }
+    },
+    {
+      "projectID": 513769,
+      "fileID": 3912057,
+      "required": true,
+      "__meta": {
+        "name": "Item Borders",
+        "dependencies": [
+          520110,
+          638111
+        ]
+      }
+    },
+    {
+      "projectID": 520110,
+      "fileID": 4068355,
+      "required": true,
+      "__meta": {
+        "name": "Iceberg",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 521393,
+      "fileID": 4074491,
+      "required": true,
+      "__meta": {
+        "name": "REI Plugin Compatibilities",
+        "explicit": false,
+        "dependencies": [
+          310111
+        ]
+      }
+    },
+    {
+      "projectID": 526854,
+      "fileID": 3836016,
+      "required": true,
+      "__meta": {
+        "name": "Starlight (Forge)"
+      }
+    },
+    {
+      "projectID": 532127,
+      "fileID": 4068347,
+      "required": true,
+      "__meta": {
+        "name": "Legendary Tooltips",
+        "dependencies": [
+          520110,
+          638111,
+          520110
+        ]
+      }
+    },
+    {
+      "projectID": 544412,
+      "fileID": 3943489,
+      "required": true,
+      "__meta": {
+        "name": "LootrChestRetexture for Create!"
+      }
+    },
+    {
+      "projectID": 548115,
+      "fileID": 3844421,
+      "required": true,
+      "__meta": {
+        "name": "Alternate Current"
+      }
+    },
+    {
+      "projectID": 551894,
+      "fileID": 4058404,
+      "required": true,
+      "__meta": {
+        "name": "Better Compatibility Checker"
+      }
+    },
+    {
+      "projectID": 574856,
+      "fileID": 3973894,
+      "required": true,
+      "__meta": {
+        "name": "Rubidium",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 581495,
+      "fileID": 3973908,
+      "required": true,
+      "__meta": {
+        "name": "Oculus",
+        "dependencies": [
+          574856
+        ]
+      }
+    },
+    {
+      "projectID": 596990,
+      "fileID": 4013362,
+      "required": true,
+      "__meta": {
+        "name": "Pyrotastic 🎆"
+      }
+    },
+    {
+      "projectID": 606159,
+      "fileID": 3823257,
+      "required": true,
+      "__meta": {
+        "name": "Auudio [Forge]",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 613067,
+      "fileID": 3866070,
+      "required": true,
+      "__meta": {
+        "name": "Audio Extension for FancyMenu [Forge]",
+        "dependencies": [
+          606159,
+          606159,
+          367706
+        ]
+      }
+    },
+    {
+      "projectID": 630620,
+      "fileID": 4081474,
+      "required": true,
+      "__meta": {
+        "name": "Fastload"
+      }
+    },
+    {
+      "projectID": 633412,
+      "fileID": 4049125,
+      "required": true,
+      "__meta": {
+        "name": "Smooth Boot (Reloaded)"
+      }
+    },
+    {
+      "projectID": 634062,
+      "fileID": 4082456,
+      "required": true,
+      "__meta": {
+        "name": "No Chat Reports"
+      }
+    },
+    {
+      "projectID": 638111,
+      "fileID": 3993293,
+      "required": true,
+      "__meta": {
+        "name": "Prism",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 639842,
+      "fileID": 4046670,
+      "required": true,
+      "__meta": {
+        "name": "Better Combat [Fabric & Forge]",
+        "dependencies": [
+          658587,
+          348521
+        ]
+      }
+    },
+    {
+      "projectID": 658587,
+      "fileID": 3987591,
+      "required": true,
+      "__meta": {
+        "name": "playerAnimator",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 663125,
+      "fileID": 4066471,
+      "required": true,
+      "__meta": {
+        "name": "TexTrue's Rubidium Options",
+        "dependencies": [
+          574856
+        ]
+      }
+    },
+    {
+      "projectID": 676136,
+      "fileID": 4024855,
+      "required": true,
+      "__meta": {
+        "name": "Model Gap Fix"
+      }
+    }
+  ]
+}

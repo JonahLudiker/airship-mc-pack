@@ -1,0 +1,51 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 
+}
+
+customization {
+  visible = false
+  x = -66
+  action = editlogo
+  y = -71
+}
+
+customization {
+  visible = false
+  x = 0
+  action = editprogressbar
+  y = -8
+}
+
+customization {
+  orientation = bottom-centered
+  x = 1
+  width = 241
+  actionid = 262f8bf3-0843-49f1-a0b5-b5289dc38d011668282353840
+  y = -5
+  action = addcustomprogressbar
+  height = 10
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  x = -32
+  textcolor = #ffffff
+  action = addtext
+  actionid = 6964f876-b601-4821-b487-21ac802a07e61668282537962
+  y = -4
+  scale = 1.0
+  alignment = left
+  value = Loading...
+}
+
